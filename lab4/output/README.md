@@ -1,4 +1,5 @@
 Class: Customer
+
 Responsibility:
 -	Register for table
 -	Receive text messages for available table
@@ -12,6 +13,7 @@ Collaborators:
 
 
 Class: SignUp
+
 Responsibilites:
 -	Gets reservation/registration details from customers
 
@@ -21,6 +23,7 @@ Collaborators:
 
 
 Class: NotifyCustomer
+
 Responsibilites:
 -	Accept table request from Customer
 -	Notify Customer table status
@@ -35,6 +38,7 @@ Collaborators:
 
 
 Class: Waitlist 
+
 Responsibilites:
 -	Add customer to waiting queue if table is not available
 -	Remove customer from waiting queue if customer chooses to leave or if table is available
@@ -45,6 +49,7 @@ This class holds waitlist queue
 
 
 Class: TableQueue
+
 Responsibilites:
 -	Get available table
 -	Get chair count of available table
@@ -59,6 +64,7 @@ Class: DiningTable
 -	Contains information of all the tables- seating capacity(chair count), table number
 
 Design Patterns used:
+
 State Pattern:
 In this scenario, the NotifyCustomer executes different behaviors according to the TableQueue State. If the state returned by TableQueue is unavailable, then the Waitlist will perform addToWaitlist operation and the state will get changed to unavailable, and if the state returned is available then Waitlist will perform removeFromWaitlist operation followed by allocateTable operation and the state will change to available. In this State design pattern, a Waitlist object’s behavior is the result of state returned by TableQueue, and the behavior gets changed at runtime according to the state.
 
