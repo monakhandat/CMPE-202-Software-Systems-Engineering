@@ -5,6 +5,7 @@ Responsibility:
 -	Get total visitor count along with the main customer
 -	Confirm Reservation
 -	Cancel Reservation
+
 Collaborators:
 -	SignUp
 -	NotifyCustomer
@@ -13,6 +14,7 @@ Collaborators:
 Class: SignUp
 Responsibilites:
 -	Gets reservation/registration details from customers
+
 Collaborators:
 -	Customer
 -	TableHelper
@@ -24,6 +26,7 @@ Responsibilites:
 -	Notify Customer table status
 -	Allocate table to customers based on queue and provided number of people match the number of chairs on available table
 -	Get available table status
+
 Collaborators:
 -	Waitlist
 -	TableQueue
@@ -35,6 +38,7 @@ Class: Waitlist
 Responsibilites:
 -	Add customer to waiting queue if table is not available
 -	Remove customer from waiting queue if customer chooses to leave or if table is available
+
 Collaborators:
 -	NotifyCustomer
 This class holds waitlist queue
@@ -44,12 +48,14 @@ Class: TableQueue
 Responsibilites:
 -	Get available table
 -	Get chair count of available table
+
 Collaborators:
 -	NotifyCustomer
 -	DiningTable
 
 
 Class: DiningTable
+
 -	Contains information of all the tables- seating capacity(chair count), table number
 
 Design Patterns used:
