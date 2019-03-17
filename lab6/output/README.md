@@ -21,43 +21,8 @@ This class prints packing slip with following sequence of contents-
 2. Cajun Fries
 
 Output Run Demo-
-COPIED FROM CONSOLE. PLEASE SEE SCREENSHOTS IN THE FOLDER FOR ACTUAL DEMO
-
-
 Receipt-
-	   FIVE GUYS
-	BURGERS AND FRIES
-	STORE # CA-1294
-	5353 ALMADEN EXP N60
-	SAN JOSE, CA 95118
-	(P) 408-264-9300
-
-
-     12/1/2016	1:46:54 PM
-	   FIVE GUYS
-Order Number: 	45
-LBB		5.59
-{{{{ Bacon}}}}
-Lettuce
-Tomato
-->| G Onion
-->| JALA Grilled
-
-LTT CAJ		2.79
-Sub. Total:	8.38
-Tax:		2.26
-Total:		18.27
-
-
+![Receipt](https://github.com/monakhandat/cmpe202/blob/master/lab6/output/Receipt.jpg)
 
 Packing Slip-
-Order Number: 45
-     12/1/2016	1:46:54 PM
-	   FIVE GUYS
-LBB
-Lettuce
-Tomato
-->| G Onion
-->| JALA Grilled
-{{{{ Bacon}}}}
-LTT CAJ
+![Packaging Slip](https://github.com/monakhandat/cmpe202/blob/master/lab6/output/Packaging%20Slip.jpg)
