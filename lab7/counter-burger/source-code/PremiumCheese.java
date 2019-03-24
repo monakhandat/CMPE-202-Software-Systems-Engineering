@@ -1,13 +1,24 @@
-public class Premium extends LeafDecorator
+
+/**
+ * Write a description of class PremiumCheese here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class PremiumCheese extends LeafDecorator
 {
-    private String[] options ;
-    
-    
-    public Premium( String d )
+    // instance variables - replace the example below with your own
+    private String[] options;
+
+    /**
+     * Constructor for objects of class PremiumCheese
+     */
+    public PremiumCheese(String d)
     {
-        super(d) ;
+        // initialise instance variables
+        super(d);
     }
-    
+
     // premium topping +1.50
     public void setOptions( String[] options )
     {
@@ -26,5 +37,4 @@ public class Premium extends LeafDecorator
         }        
         return desc ;
     }
-    
 }
