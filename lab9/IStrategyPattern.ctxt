@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=IStrategyPattern
+comment0.text=\r\n\ Write\ a\ description\ of\ interface\ IStrategyPattern\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=data
+comment1.target=int\ calculation(int)
+comment1.text=\r\n\ An\ example\ of\ a\ method\ header\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ the\ result\ produced\ by\ sampleMethod\r\n
+numComments=2
