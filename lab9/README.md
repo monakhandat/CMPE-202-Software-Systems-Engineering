@@ -9,3 +9,6 @@
   3. Square- Class that implements IStrategyPattern with calculaion method to find square of integer.  
   4. Cube- Class that implements IStrategyPattern with calculaion method to find cube of integer.  
   5. StrategyWithLambda- Main function using Lambda expressions that uses IStrategyPattern and not Square and Cube classes.  
+  
+  ## Comparison of Lambda style and traditional Java implementation  
+  Lambda style implementation helps in compact implementation of the same functionality. Using Lambda style, classes Square and Cube are not required- which also saves up space in memory. While this was a project with only four classes, substantial space in memory and computation is saved when implemented on bigger projects i.e., projects with more classes.   
