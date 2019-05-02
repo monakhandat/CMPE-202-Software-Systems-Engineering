@@ -7,5 +7,16 @@
  ### Screenshots 
  
  
-![alt_text](https://github.com/monakhandat/cmpe202/blob/master/lab10/output/SC-GM-V2-CRANK-2QUARTER-COST50.png)w
+![alt_text](https://github.com/monakhandat/cmpe202/blob/master/lab10/output/SC-GM-V2-CRANK-2QUARTER-COST50.png)  
+  
+    
+      
+![alt_text](https://github.com/monakhandat/cmpe202/blob/master/lab10/output/SC-GM-V2-CRANK-ONEQUARTER-COST25.png)
+  
+    
+      
+![alt_text](https://github.com/monakhandat/cmpe202/blob/master/lab10/output/SC-GM-V2-SLOT-COST-50.png)
 
+
+  
+![alt_text](https://github.com/monakhandat/cmpe202/blob/master/lab10/output/SC-GM-V2-SLOT-COST25.png)
