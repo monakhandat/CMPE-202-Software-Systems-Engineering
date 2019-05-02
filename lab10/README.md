@@ -7,3 +7,5 @@
  ### Screenshots 
  
  
+https://github.com/monakhandat/cmpe202/blob/master/lab10/output/SC-GM-V2-CRANK-2QUARTER-COST50.png
+
