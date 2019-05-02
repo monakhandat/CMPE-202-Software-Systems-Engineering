@@ -2,7 +2,7 @@
   
 ## Comparison between Lab 1 solution and AspectJ design for Gumball machine  
   
- Running on AspectJ gives an elegant way of working on the same problem statement. Also, AspectJ design is more user friendly than what I implemented in Lab 1 for Gumbal machines.   
+ Running on AspectJ gives an elegant way of working on the same problem statement. Also, AspectJ design is more user friendly than what I implemented in Lab 1 for Gumbal machines. It is more manageable, modular and easier to debug. Its behaviour can be easily changed during runtime too.  
  
  ### Screenshots 
  
