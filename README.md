@@ -1,1 +1,1 @@
-# cmpe202
+# CMPE 202 lab assignments
